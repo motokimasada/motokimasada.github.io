@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #24292f;
+    background-color: #f6f8fa;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    padding: 64px 24px;
+    color: white;
+    text-align: center;
+    background-color: #24292f;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    color: #c9d1d9;
+}
+
+main {
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+section {
+    margin-bottom: 24px;
+    padding: 28px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
+}
+
+h2 {
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0969da;
+}
+
+footer {
+    padding: 24px;
+    color: #57606a;
+    text-align: center;
+}
+
+.presentation-list,
+.publication-list {
+    padding-left: 1.5rem;
+}
+
+.presentation-item,
+.publication-item {
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+}
+
+.presentation-title,
+.publication-title {
+    margin: 0 0 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.presentation-authors,
+.publication-authors {
+    margin: 0 0 0.25rem;
+    font-size: 1rem;
+}
+
+.presentation-details,
+.publication-details {
+    margin: 0;
+    color: #57606a;
+    font-size: 0.9rem;
+}
+
+.activity-list {
+    padding-left: 1.25rem;
+}
+
+.activity-item {
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.activity-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.activity-role {
+    margin: 0 0 0.2rem;
+    font-size: 1rem;
+}
+
+.activity-project,
+.activity-description {
+    margin: 0 0 0.2rem;
+    font-size: 0.95rem;
+}
+
+.activity-details {
+    margin: 0;
+    color: #57606a;
+    font-size: 0.9rem;
+}
+
+.presentation-item:last-child,
+.publication-item:last-child,
+.activity-item:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #0969da;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 48px 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        width: calc(100% - 24px);
+        margin: 24px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
