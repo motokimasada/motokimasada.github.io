@@ -57,17 +57,20 @@ footer {
     text-align: center;
 }
 
+.award-list,
 .presentation-list,
 .publication-list {
     padding-left: 1.5rem;
 }
 
+.award-item,
 .presentation-item,
 .publication-item {
     margin-bottom: 2rem;
     padding-left: 0.5rem;
 }
 
+.award-title,
 .presentation-title,
 .publication-title {
     margin: 0 0 0.4rem;
@@ -82,6 +85,8 @@ footer {
     font-size: 1rem;
 }
 
+.award-details,
+.award-work,
 .presentation-details,
 .publication-details {
     margin: 0;
@@ -122,6 +127,7 @@ footer {
     font-size: 0.9rem;
 }
 
+.award-item:last-child,
 .presentation-item:last-child,
 .publication-item:last-child,
 .activity-item:last-child {
